@@ -1,7 +1,7 @@
 import React from "react";
 
 import style from "./Header.module.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Header: React.FC = () => {
   return (
@@ -11,13 +11,29 @@ export const Header: React.FC = () => {
           <nav className={style.header__nav}>
             <ul>
               <li>
-                <Link to="react-astronomy/">Главная</Link>
+                <NavLink
+                  to="react-astronomy/"
+                  end
+                  className={({ isActive }) => (isActive ? style.active : style.link)}
+                >
+                  Сегодня
+                </NavLink>
               </li>
               <li>
-                <Link to="react-astronomy/calendar">Выбрать перирод</Link>
+                <NavLink
+                  to="react-astronomy/calendar"
+                  className={({ isActive }) => (isActive ? style.active : style.link)}
+                >
+                  Архив
+                </NavLink>
               </li>
               <li>
-                <Link to="react-astronomy/choice-date">Выбрать дату</Link>
+                <NavLink
+                  to="react-astronomy/choice-date"
+                  className={({ isActive }) => (isActive ? style.active : style.link)}
+                >
+                  Выбрать дату
+                </NavLink>
               </li>
             </ul>
           </nav>

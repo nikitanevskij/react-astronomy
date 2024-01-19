@@ -1,0 +1,36 @@
+.content {
+  margin: 20px 0;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.rangePicker {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.line {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-weight: 700;
+}
+
+.description {
+  cursor: pointer;
+  &:hover {
+    color: #1677ff;
+  }
+}
+
+.spin {
+  text-align: center;
+  margin-top: 150px;
+}

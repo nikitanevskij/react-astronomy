@@ -21,10 +21,17 @@
     align-items: center;
   }
   a {
-    color: #dde0e2;
     &:hover {
       color: #1677ff;
       transition: color 0.2s ease-in;
     }
   }
+}
+
+.link {
+  color: #dde0e2;
+}
+
+.active {
+  color: #1677ff;
 }
