@@ -11,9 +11,9 @@ export const App: React.FC = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calendar" element={<Calendar />} />
-        <Route path="/choice-date" element={<ChoiceDate />} />
+        <Route path="react-astronomy/" element={<Home />} />
+        <Route path="react-astronomy/calendar" element={<Calendar />} />
+        <Route path="react-astronomy/choice-date" element={<ChoiceDate />} />
       </Routes>
     </>
   );

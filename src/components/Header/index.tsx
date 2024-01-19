@@ -11,13 +11,13 @@ export const Header: React.FC = () => {
           <nav className={style.header__nav}>
             <ul>
               <li>
-                <Link to="/">Главная</Link>
+                <Link to="react-astronomy/">Главная</Link>
               </li>
               <li>
-                <Link to="/calendar">Выбрать перирод</Link>
+                <Link to="react-astronomy/calendar">Выбрать перирод</Link>
               </li>
               <li>
-                <Link to="/choice-date">Выбрать дату</Link>
+                <Link to="react-astronomy/choice-date">Выбрать дату</Link>
               </li>
             </ul>
           </nav>
