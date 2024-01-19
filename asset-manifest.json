@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.83298b2c.css",
-    "main.js": "/static/js/main.c9898597.js",
-    "index.html": "/index.html",
-    "main.83298b2c.css.map": "/static/css/main.83298b2c.css.map",
-    "main.c9898597.js.map": "/static/js/main.c9898597.js.map"
+    "main.css": "/react-astronomy/static/css/main.83298b2c.css",
+    "main.js": "/react-astronomy/static/js/main.c9898597.js",
+    "index.html": "/react-astronomy/index.html",
+    "main.83298b2c.css.map": "/react-astronomy/static/css/main.83298b2c.css.map",
+    "main.c9898597.js.map": "/react-astronomy/static/js/main.c9898597.js.map"
   },
   "entrypoints": [
     "static/css/main.83298b2c.css",
