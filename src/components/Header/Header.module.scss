@@ -1,0 +1,30 @@
+.header {
+  padding: 25px 0;
+  background-color: #001529;
+}
+
+.header__row {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.22px;
+
+  ul {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+  }
+  a {
+    color: #dde0e2;
+    &:hover {
+      color: #1677ff;
+      transition: color 0.2s ease-in;
+    }
+  }
+}
